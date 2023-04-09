@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nếu dùng flex</title>
+    <style>
+      .container {
+        background-color: bisque;
+        width: 700px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box1 {
+        background-color: aqua;
+      }
+
+      .box2 {
+        background-color: violet;
+      }
+
+      .box3 {
+        background-color: rgb(143, 143, 53);
+      }
+
+      .box4 {
+        background-color: brown;
+      }
+
+      .box5 {
+        background-color: rgb(162, 198, 229);
+      }
+
+      .box6 {
+        background-color: royalblue;
+      }
+
+      .box7 {
+        background-color: red;
+      }
+      .box8 {
+        background-color: gray;
+      }
+
+      .leftPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+
+      .rightPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .columnPart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nếu dùng flex</h1>
+
+    <div class="container">
+      <div class="leftPart">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+      </div>
+      <div class="columnPart">
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+      </div>
+
+      <div class="rightPart">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+      </div>
+    </div>
+
+    <!-- <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+      <div class="box box4">4</div> -->
+  </body>
+</html>
